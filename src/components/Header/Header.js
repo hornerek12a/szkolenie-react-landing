@@ -5,22 +5,25 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div>
-      <img src={logo} alt="Company logo"/>
+    <header className={styles.wrapper}>
+        <Link to="/">
+            <img src={logo} alt="Company logo"/>
+        </Link>
+      
       <nav>
-        <ul>
+        <ul className={styles.list}>
             <li>
-                <Link to ="/features">Features</Link>
+                <Link className={styles.link} to ="/features">Features</Link>
             </li>
             <li>
-                <Link to ="/team">Team</Link>
+                <Link className={styles.link} to ="/team">Team</Link>
             </li>
             <li>
-                <Link to ="/signin">Signin</Link>
+                <Link className={styles.link} to ="/signin">Signin</Link>
             </li>
         </ul>
       </nav>
-    </div>
+    </header>
   )
 }
 
