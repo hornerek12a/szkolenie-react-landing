@@ -1,9 +1,19 @@
-.card{
-    width:300px;
-    display: flex;
-}
+
 .image{
     display: flex;
-    margin: 0 auto;
-    width:50px;
+    margin:0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.header{
+    display: flex;
+    margin:0 auto;
+    width:250px;
+}
+
+.desc{
+    display: flex;
+    margin:0 auto;
+    padding: 15px;
+    width:450px;
 }

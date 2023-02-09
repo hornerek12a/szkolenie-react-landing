@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({styleClass}) => {
   return (
-    <button>Get Started</button>
+    <button className={styleClass}>Get Started</button>
   )
 }
 
