@@ -1,0 +1,23 @@
+.wraper{
+    width: 90%;
+    max-width:1440px;
+    margin:  50px auto;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    row-gap:60px;
+    grid-template-columns: 1fr 1fr;
+}
+.header{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.button{
+    background-color: transparent;
+    color:aqua;
+    border: 0 solid transparent;
+    cursor: pointer;
+    text-decoration: underline;
+}

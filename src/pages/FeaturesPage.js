@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainTemplate } from '../components/MainTemplate/MainTemplate'
+import { MainTemplate } from '../templates/MainTemplate/MainTemplate'
 
 function FeaturesPage() {
   return (

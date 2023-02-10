@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../Card/Card'
+import Card from '../../components/Card/Card'
 import iconAccessAnyWhere from "../../images/icon-access-anywhere.svg"
 import iconSecurity from "../../images/icon-security.svg";
 import iconAnyFile from "../../images/icon-any-file.svg";

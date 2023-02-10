@@ -1,7 +1,9 @@
 import React from 'react'
-import BodyCard from '../components/BodyCard/BodyCard'
-import BodyTop from '../components/BodyTop/BodyTop'
-import { MainTemplate } from '../components/MainTemplate/MainTemplate'
+import BodyCard from '../templates/BodyCard/BodyCard'
+import BodyComentary from '../templates/BodyComentary/BodyComentary'
+import BodyImage from '../templates/BodyImage/BodyImage'
+import BodyTop from '../templates/BodyTop/BodyTop'
+import { MainTemplate } from '../templates/MainTemplate/MainTemplate'
 
 
 
@@ -10,6 +12,8 @@ function HomePages() {
     <MainTemplate>
       <BodyTop/>
       <BodyCard/>
+      <BodyImage/>
+      <BodyComentary/>
       
     </MainTemplate>
   )
